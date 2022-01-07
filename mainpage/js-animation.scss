@@ -1,0 +1,97 @@
+
+/*============================================
+                Hearder area
+=============================================*/
+.header-area{
+    animation: 1s header forwards linear .8s;
+    opacity: 0;
+}
+.header-area.active {
+    background: rgba(0,0,0,.7);
+    backdrop-filter: blur(10px);
+    height: 80px;
+    
+}
+
+/*============================================
+                Hero area
+=============================================*/
+.side-ber {
+    top: 45%;
+    opacity: 0;
+    animation: 1s sideBar forwards linear 1.8s;
+}
+/*============================================
+                Hero area
+=============================================*/
+.hero-area{
+   
+    .right {
+    .content{
+        opacity: 0;
+        .button {
+
+        }
+    }
+    }
+    .middel-area {
+        .imgs {
+         opacity: 0;
+      }
+} 
+}
+.hero-area.active{
+    
+    .right {
+    .content{
+        animation: .7s UpToBottom forwards linear 1.5s;
+        .button {
+            
+        }
+    }
+    }
+    .middel-area {
+        .imgs {
+        animation: .8s rightToLeft forwards linear 2s;
+      }
+} 
+ 
+}
+
+
+
+
+
+
+
+
+
+/* #Protfolios{
+    .top-text{
+        opacity: 0;
+        transition: 1s;
+    }
+}
+#Protfolios.active{
+    .top-text{
+        opacity: 1;
+    }
+}
+
+#about-area{
+    .top-text{
+        opacity: 0;
+        transition: 1s;
+    }
+}
+#about-area.active{
+    .top-text{
+        opacity: 1;
+    }
+}
+.hero-area.active {
+    .right {
+        top: 0px;
+    opacity: 1;
+    }
+} */

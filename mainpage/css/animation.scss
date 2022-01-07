@@ -1,0 +1,131 @@
+/*=================== header area ===========*/
+@keyframes header{
+  0%{
+    opacity: 0;
+   top: -110px;
+  }
+  100%{
+    top: 0px;
+    opacity: 1;
+  }
+}
+/*=================== side bar ===========*/
+@keyframes sideBar{
+  0%{
+    opacity: 0;
+   top: 48%;
+  }
+  
+  50%{
+    opacity: 1;
+   top: 51%;
+  }
+  60%{
+    opacity: 1;
+    top: 49%;
+   }
+   70%{
+    opacity: 1;
+    top: 50.5%;
+   }
+  80%{
+    opacity: 1;
+    top: 49.4%;
+   }
+  100%{
+    opacity: 1;
+    top: 50%;
+    
+  }
+}
+/*=================== hero area > right side > span===========*/
+@keyframes up2 {
+    0% {
+      top: -150%;
+      transform: translateY(0%);
+      opacity: 0;
+    }
+
+    25% {
+      transform: translateY(300%);
+      opacity: 0;
+    }
+
+    60% {
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 1;
+    }
+
+    100% {
+      top: -150%;
+      transform: translateY(0%);
+    }
+  }
+  /*=================== hero area  style===========*/
+  @keyframes rotate {
+      0%{
+
+        transform: scaleX(0);
+        transform-origin: left;
+      }
+      40%{
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+      60%{
+        transform: scaleX(1);
+        transform-origin: right;
+      }
+      100%{
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+      }
+      @keyframes rotate2 {
+        0%{
+  
+          transform: scaleX(0);
+          transform-origin: right;
+        }
+        40%{
+          transform: scaleX(1);
+          transform-origin: right;
+        }
+        60%{
+          transform: scaleX(1);
+          transform-origin: left;
+        }
+        100%{
+          transform: scaleX(0);
+          transform-origin: left;
+      }
+        }
+/*******==============hero Area animation===============*/
+//-------------content-------------------
+
+@keyframes UpToBottom {
+  0%{
+    top: 45%;
+    opacity: 0;
+    
+  }
+  100%{
+    top: 50%;
+    opacity: 1;
+}
+  }
+  //-----------------image----------------
+
+  @keyframes rightToLeft {
+    0%{
+      bottom: -30px;
+      opacity: 0;
+     
+      
+    }
+    100%{
+     bottom: 0px;
+      opacity: 1;
+  }
+    }
